@@ -28,7 +28,7 @@ This repository contains information pertaining to the communally-available data
 | --- | --- | --- | --- |
 | Kraken2 Standard | 14-05-2026 | `kraken/k2_standard_{release}/` | 97.3GB |
 | Kraken2 plusPF | 14-05-2026 | `kraken/k2_pluspf_{release}/` | 103GB |
-| Kraken2 NCBI | 23-09-2026 | `kraken/k2_NCBI_reference_{release}/` | XXXGB |
+| Kraken2 NCBI reference | 23-09-2026 | `kraken/k2_NCBI_reference_{release}/` | XXXGB |
 
 
 ### [NCBI Taxonomy 'dump'](https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/)
@@ -51,7 +51,7 @@ This repository contains information pertaining to the communally-available data
 - **kraken**: Databases formatted for use with kraken/Bracken, Kraken2, krakenUniq taxonomic Sequence Classifiers. Each database is built for 50, 75, 100, 150, 200, 250 and 300-mers.
     - 'Standard': Contains Refseq archaea, bacteria, viral, plasmid, human (not masked), and UniVec_Core.
     - 'plusPF': The standard kraken2 database, plus Refseq protozoa & fungi.
-    - 'NCBI': Built from NCBI's curated reference and representative genome assemblies across all domains of life. Contains broader taxonomic coverage than the standard databases but with fewer bacterial strains.
+    - 'NCBI': Built from NCBI's curated reference and representative genome assemblies across bacteria, archaea, viruses, fungi, protists, and the human genome. Unlike other Kraken databases, it includes only a single reference genome per species, which provides broader taxonomic coverage but with fewer bacterial strains than the standard databases.
 - **Taxdump**: A structured, downloadable archive that provides the comprehensive taxonomic classification for all organisms in NCBI's database.
 
 
