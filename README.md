@@ -28,7 +28,7 @@ This repository contains information pertaining to the communally-available data
 | --- | --- | --- | --- |
 | Kraken2 Standard | 14-05-2026 | `kraken/k2_standard_{release}/` | 97.3GB |
 | Kraken2 plusPF | 14-05-2026 | `kraken/k2_pluspf_{release}/` | 103GB |
-| Kraken2 NCBI | 24-09-2026 | `kraken/k2_NCBI_reference_{release}/` | XXXGB |
+| Kraken2 NCBI | 23-09-2026 | `kraken/k2_NCBI_reference_{release}/` | XXXGB |
 
 
 ### [NCBI Taxonomy 'dump'](https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/)
